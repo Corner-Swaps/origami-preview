@@ -1,0 +1,56 @@
+Origami tutorials adapted from Origami Odyssey by Robb Doering.
+https://github.com/robbwdoering/origamiodyssey
+
+The source crease geometry and folding instructions are adapted into our own
+connected-panel animation engine. Numerical corrections and intermediate
+motions are adaptations, not an endorsement by the original author.
+These are authored tutorials, not a trained machine-learning model.
+
+FOLD format: Erik Demaine, Jason Ku and Robert Lang.
+https://github.com/edemaine/fold
+
+MIT License
+
+Copyright (c) 2021 Robb Doering
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Manta Ray is a separately authored native animation adaptation.
+Reference design: Nick Robinson, https://origami.me/manta-ray/
+Its final shaping differs from the reference. No reference images or videos
+are bundled. The Origami Odyssey MIT notice above applies to that source,
+not to third-party reference materials.
+
+Dragonfly is a locally authored bird-base cut-and-fold variation. Its first
+24 preparation actions use the MIT-licensed Origami Odyssey source above.
+Its finishing differs from the traditional reference. It has two late wing
+slits and removes no paper outline.
+
+The previous six-cut Scorpion was incorrect and has been withdrawn. The
+replacement must use no cuts and is not currently available. Marc Vigo's
+reference diagrams and author-specific finishing are not bundled.
+
+Whale is an independently authored 42-action, uncut bird-base adaptation.
+Design reference: Joost Langeveld, https://joostlangeveldorigami.nl/diagramswhale.html
+The 24-action foundation uses Origami Odyssey (Robb Doering, MIT).
+Fin-tip tucks and individually raised tail layers differ from the reference's
+inside reverse folds. The final two body-opening folds are original shaping,
+producing separated sides and an open underside. This is an adaptation,
+not an exact reconstruction.
+No reference images, diagrams, videos or tutorial text are distributed.
