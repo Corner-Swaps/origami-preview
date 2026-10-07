@@ -1,4 +1,16 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#edf0f3"><title>Origami</title><link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png"><link rel="apple-touch-icon" href="./apple-touch-icon.png">  <script type="module" crossorigin src="./assets/main-BDlLXqbG.js"></script>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#edf0f3"><title>Origami</title><link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png"><link rel="apple-touch-icon" href="./apple-touch-icon.png"><script>
+/* Freshness guard: if this page's bundle is older than the live build, reload once. Silent. */
+(function(){try{
+var s=document.querySelector('script[src*="main-"]');
+var cur=s?s.getAttribute('src'):'';
+var seen=false;try{seen=sessionStorage.getItem('origamiFresh')==='1';}catch(e){seen=true;}
+if(!cur||seen)return;
+fetch('index.html?fresh='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.text():'';}).then(function(html){
+var m=/assets\/main-[A-Za-z0-9_-]+\.js/.exec(html||'');
+var live=m?m[0].split('/').pop():null,mine=cur.split('/').pop();
+if(live&&mine&&live!==mine){try{sessionStorage.setItem('origamiFresh','1');}catch(e){}location.reload();}
+}).catch(function(){});}catch(e){}})();
+</script>  <script type="module" crossorigin src="./assets/main-BDlLXqbG.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/patterns-Bpgas2SO.js">
   <link rel="stylesheet" crossorigin href="./assets/main-CxP8MHIt.css">
 </head><body>
